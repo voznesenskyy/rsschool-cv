@@ -39,3 +39,9 @@ Even though college takes most of my time, since even in college-free time I hav
 * Text writing and editing in Word in a corresponding format
 * Powerpoint
 * Good knowledge of the OS Windows file system
+
+## Languages
+
+### English - fluent, no certificate
+
+### Russian - native
