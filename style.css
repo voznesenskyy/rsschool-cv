@@ -40,3 +40,10 @@ body {
     text-align: center;
     width: 700px;
 }
+
+.skills {
+    margin: 0 auto;
+    height:auto;
+    width: 700px;
+    outline: 1px dashed black;
+}
