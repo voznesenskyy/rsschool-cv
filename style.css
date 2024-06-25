@@ -56,3 +56,7 @@ body {
     margin: 0 auto;
     outline: dashed 2px red;
 }
+
+.c {
+    list-style-type: circle;
+}
