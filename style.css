@@ -72,3 +72,14 @@ a {
 .nav {
     text-align: center;
 }
+
+.codeexample {
+    background-color: beige;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.logo {
+    height: auto;
+    width: 20%;
+}
