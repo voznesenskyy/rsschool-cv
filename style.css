@@ -60,3 +60,15 @@ body {
 .c {
     list-style-type: circle;
 }
+
+footer {
+    text-align: center;
+}
+
+a {
+    color: red;
+}
+
+.nav {
+    text-align: center;
+}
