@@ -2,4 +2,4 @@
 
 Repository for CV#1. RS School
 
-https://voznesenskyy.github.io/rsschool-cv/cv
+https://voznesenskyy.github.io/rsschool-cv/
