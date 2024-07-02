@@ -79,6 +79,11 @@ a {
     border-top: 1px solid black;
 }
 
+.codeexample__code {
+    display: flex;
+    justify-content: center;
+}
+
 .logo {
     height: auto;
     width: 20%;
