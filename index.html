@@ -11,15 +11,25 @@
         </head>
         <body>
             <div id="page-wrapper">
+                <header>
                 <div class="header">
                     <img class="me" src="https://i.pinimg.com/736x/4d/32/bf/4d32bf4e310ddf717aa7922aa7f8359e.jpg" alt="My Discord profile picture">
                     <h1 class="name">Julius Lunovoy</h1>
                     <hr>
+                    <nav class="navbar">
+                        <ul class="navbar__list">
+                            <li><a href="#contacts">Contacts</a></li> --
+                            <li><a href="#about">About me</a></li> --
+                            <li><a href="#projects">Projects</a></li> --
+                            <li><a href="#footer">Misc</a></li> 
+                        </ul>
+                    </nav>
                 </div>
+                </header>
                 <main>
                 <div class="content">
-                   <div class="contacts">
-                        <h2 class="cinfo">Contact Info</h2>
+                   <div class="contacts" id="contacts">
+                        <h2 class="contacts__info">Contact Info</h2>
                         <ul>
                         <li>Discord: flowers1</li>
                         <li>TG: @voznesenskyy</li>
@@ -29,7 +39,7 @@
                    </div>
                    <br>
                    <hr>
-                    <div class="about">
+                    <div class="about" id="about">
                         <h1>About me</h1>
                         <p><strong>In 2024, I am 18 years old, and I'm just starting the path of IT.</strong><br>
                             At this time, I am a student of an actors class of college of culture, on his summer break; proud older brother, creative, versatile person.<br>
@@ -44,7 +54,7 @@
                             <li>High learning ability</li>
                             <li>Ability to communicate with people of various tempers
                                     <ul>
-                                        <li class="c">College taught me this. You can't study for an actor, if your group isn't a team. People in the group are, to put it softly, very different, and in the beginning you really had to find an approach to each and every one, since in the end, you have to work with every one of them, whether you like it or not.</li>
+                                        <li class="circle-point">College taught me this. You can't study for an actor, if your group isn't a team. People in the group are, to put it softly, very different, and in the beginning you really had to find an approach to each and every one, since in the end, you have to work with every one of them, whether you like it or not.</li>
                                     </ul>
                             </li>
                             <li>Desire for learning new things</li>
@@ -69,7 +79,7 @@
                             <li>Basic Git and Markdown</li>
                             <li>Scratch scripts
                                     <ul>
-                                        <li class="c">A skill from a programming school I attended when I was 13. It might not be very relevant, but memory still holds.</li>
+                                        <li class="circle-point">A skill from a programming school I attended when I was 13. It might not be very relevant, but memory still holds.</li>
                                     </ul>
                             </li>
                             <li>Photoshop</li>
@@ -81,52 +91,19 @@
                         </ul>
                         </div>
                         <br>
-                        <div class="hobbies">
-                            <p><b>Different pastime hobbies also have their impact on my skills.</b><br>
-                                I am a street musician with some experience. I do photography and can draw.<br>
-                                Even though college takes most of my time, since even in college-free time I have to do self-educaion - read plays, research authors and heroes, etc., I still find a spare minute for my hobbies.</p>
-                        </div>
-                        <br>
-                        <div class="skills">
-                            <h3 class="header">Incomplete list of my hardskills</h3>
-                            <ul>
-                                <li>Basic Git and Markdown</li>
-                                <li>HTML5, CSS3</li>
-                                <li>Scratch scripts
-                                        <ul>
-                                            <li class="c">A skill from a programming school I attended when I was 7. It might not be very relevant, but memory still holds.</li>
-                                        </ul>
-                                </li>
-                                <li>Photoshop</li>
-                                <li>Photo editing</li>
-                                <li>Video montage (Sony VEGAS)</li>
-                                <li>Text writing and editing in Word in a corresponding format</li>
-                                <li>Powerpoint</li>
-                                <li>Good knowledge of the OS Windows file system</li>
-                            </ul>
-                        </div>
-                        <br>
                         <div id="code" class="codeexample">
-                            <p class="nav">Example of my code:</p>
+                            <p class="codeexample__text">Example of my code:</p>
                             <pre class="codeexample__code">
-                                &lt;!DOCTYPE html&gt;
-                                &lt;html lang="en"&gt;
-                                    &lt;head&gt;
-                                        &lt;title&gt;Example code&lt;/title&gt;
-                                        &lt;meta name="description" content="My description!"&gt;
-                                    &lt;/head&gt;
-                                    &lt;body&gt;
-                                        &lt;h1&gt;Hello world!&lt;/h1&gt;
-                                        &lt;b&gt;This is my code.&lt;/b&gt;
-                                    &lt;/body&gt;
-                                &lt;/html&gt;
+                                function multiply(a, b) {
+                                    returnb a * b
+                                }
                             </pre>
                         </div>
                         <br>
-                        <div id="proj">
+                        <div id="projects" class="projects">
                             List of completed projects:<br>
                             <ul>
-                                <li><a href="https://github.com/voznesenskyy/rsschool-cv">RS School CV (HTML, CSS &#38; Git)</a></li>
+                                <li class="projects__item"><a href="https://github.com/voznesenskyy/rsschool-cv">RS School CV (HTML, CSS &#38; Git)</a></li>
                             </ul>
                         </div>
                         <br>
@@ -142,7 +119,7 @@
                 <footer id="footer">
                     <a class="gh-link" href="https://github.com/voznesenskyy/">My GitHub profile link</a><br>
                     2024<br>
-                    <a href="https://rs.school/courses/javascript-preschool-ru"><img class="logo" src="./rsschool-logo.svg" alt="RS School"></a>
+                    <a href="https://rs.school/courses/javascript-preschool-ru"><img class="rsschool-logo" src="./rsschool-logo.svg" alt="RS School"></a>
                 </footer>
             </div>
         </body>
